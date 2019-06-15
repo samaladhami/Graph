@@ -162,17 +162,17 @@ class Node {
   
   g.removeNode(g.graph.test);
   
-  'DFS'
+  // 'DFS'
   g.bFS(g.graph.joe, g.graph.test2);
   g.bFS(g.graph.jennifer, g.graph.poul);
   g.bFS(g.graph.zac, g.graph.poul);
   g.bFS(g.graph.mena, g.graph.mena);
-  '********************************************'
-  'BFS'
+  // '********************************************'
+  // 'BFS'
   g.dFS(g.graph.robert, g.graph.zac);
   g.dFS(g.graph.joe, g.graph.elina);
   g.dFS(g.graph.jeff, g.graph.mark);
   g.dFS(g.graph.john, g.graph.jeff);
   g.graph.john.removeEdge(g.graph.jeff);
-  'removeEdge'
+  // 'removeEdge'
   g.dFS(g.graph.john, g.graph.jeff);
